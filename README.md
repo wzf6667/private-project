@@ -1,2 +1,2 @@
 # private-project
-| Type| USABILITY
+| Type | USABILITY |
