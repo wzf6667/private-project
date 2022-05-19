@@ -16,3 +16,69 @@
 |Role|Superuser|
 |Description|Superuser should be able to create a student record|
 |Requirement|1. Create a new student record |
+
+|ID|content|
+|---|---|
+|Role|Superuser|
+|Description|Superuser should be able to **Add** or **Modify** scholarship types|
+|Requirement|1. add a new type of scholarship.<br> 2. modify an existing scholarship, at the meanwhile, the original data of this type should be reserved to ensure that the amount of the scholarship does not change for students who have received this type of scholarship in the past|
+
+|ID|content|
+|---|---|
+|Role|Superuser|
+|Description|Superuser should be able to add supervisors for phd students|
+|Requirement|1. Add supervisor to a phd student.<br> 2. some students may have more than one supervisors |
+
+|ID|content|
+|---|---|
+|Role|Superuser|
+|Description|Superuser should be able to allocate funding to students|
+|Requirement|1. allocate one type of scholarship for a student.<br> 2. If the student is self-funded, the type of scholarship should be set to self-funded |
+
+|ID|content|
+|---|---|
+|Role|Superuser|
+|Description|Superuser should be able to allocate funding for supervisors|
+|Requirement|1. superuser should allocate fundings for each supervisor manually |
+
+
+|ID|content|
+|---|---|
+|Role|Superuser|
+|Description|Superuser should have access to a dashboard|
+|Requirement|1. The dashboard should show the number of scholarships for all students (current and past) per supervisor, the total amount of scholarships for all students per supervisor|
+
+|ID|content|
+|---|---|
+|Role|Superuser|
+|Description|Superuser should be able to discover supervisors whose fund used in excess of allocated funds|
+|Requirement|1. The system should highlight those supervisors in the dashboard.<br>2. This situation is not forbidden |
+
+|ID|content|
+|---|---|
+|Role|Supervisor|
+|Description|Supervisor should be able to read all related data|
+|Requirement|1. Supervisors are able to read the scholarship amount and total for each student under supervision, as well as the amount of funds received from the school.<br>2. If a student is supervised jointly with another supervisor, half of the student's scholarship amount is provided by one supervisor.<br> 3. Supervisors can only read information of students who are under their supervision|
+
+|ID|content|
+|---|---|
+|Role|Admin|
+|Description|Admin should be able to read all information of students|
+|Requirement|1.Admin is able to read students' information.<br> 2. They do not have access to the dashboard |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
