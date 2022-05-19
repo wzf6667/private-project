@@ -5,7 +5,7 @@
 |ID|content|
 |---|---|
 |Role|Superuser|
-|Description|Superuser should be able to create a student record|
+|Description|Superuser should be able to **create** a student record|
 |Requirement|1. Create a new student record |
 
 |ID|content|
@@ -17,26 +17,26 @@
 |ID|content|
 |---|---|
 |Role|Superuser|
-|Description|Superuser should be able to add supervisors for phd students|
+|Description|Superuser should be able to **add supervisors** for phd students|
 |Requirement|1. Add supervisor to a phd student.<br> 2. some students may have more than one supervisors |
 
 |ID|content|
 |---|---|
 |Role|Superuser|
-|Description|Superuser should be able to allocate funding to students|
+|Description|Superuser should be able to **allocate fundings** to **students**|
 |Requirement|1. allocate one type of scholarship for a student.<br> 2. If the student is self-funded, the type of scholarship should be set to self-funded |
 
 |ID|content|
 |---|---|
 |Role|Superuser|
-|Description|Superuser should be able to allocate funding for supervisors|
+|Description|Superuser should be able to **allocate fundings** for **supervisors**|
 |Requirement|1. superuser should allocate fundings for each supervisor manually |
 
 
 |ID|content|
 |---|---|
 |Role|Superuser|
-|Description|Superuser should have access to a dashboard|
+|Description|Superuser should have access to a **dashboard**|
 |Requirement|1. The dashboard should show the number of scholarships for all students (current and past) per supervisor, the total amount of scholarships for all students per supervisor|
 
 |ID|content|
