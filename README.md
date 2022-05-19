@@ -57,6 +57,18 @@
 |Description|Admin should be able to read all information of students|
 |Requirement|1.Admin is able to read students' information.<br> 2. They do not have access to the dashboard |
 
+**ACTIONS**
+1. as a superuser, I want to create a new student record 
+2. as a superuser, I want to add a new scholarship type, if I want to overwrite the old scholarship type, I should keep the data of the old scholarship type 
+3. as a superuser, I want to add a supervisor for a phd student 
+4. as a superuser, I want to assign scholarship to the student, if no scholarships should be marked as 0 
+5. as a superuser, I want to assign funds manually to supervisors 
+6. as a superuser, I want to get a dashboard that shows the number of scholarships for all students (current and past) for each supervisor, the total amount of scholarships for all students 
+7. as a superuser, I want the system to be able to highlight in the dashboard those supervisors whose remaining funding exceeds a threshold. 
+8. As a supervisor, I want to be able to read the amount of scholarships and the total amount of scholarships for each student under my supervision, as well as the amount of funding I receive from the school. If a student is co-supervised with another supervisor, half of the student's scholarship amount is provided by myself 
+9. As a supervisor, I can only view the information of the students I supervise 
+10. As an admin, I want to be able to view the information of all students, but not access the dashboard
+
 
 |ID| content |
 | ---| ---|
