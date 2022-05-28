@@ -11,7 +11,7 @@
 |ID|content|
 |---|---|
 |Role|Superuser|
-|Description|Add an item called Scholarship Management in the navigation bar |
+|Description|Add an item called **Funding** in the navigation bar |
 |Requirement|1. SuperUser can use this page to manage the funding system.|
 
 |ID|content|
